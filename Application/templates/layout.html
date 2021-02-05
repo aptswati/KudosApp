@@ -16,7 +16,7 @@
 <div class="container-fluid text-center top-container">
 <img src="{{ url_for('static', filename='../static/images/Cloud3.png') }}">
 </div>
- {% include "./includes/nav.html" %}
+ {% include "nav.html" %}
 <div class="container">
 
     {% if session['username'] %}
@@ -37,6 +37,6 @@
     {% endblock %}
 
  </div>
- {% include "./includes/footer.html" %}
+ {% include "footer.html" %}
  </body>
  </html>
