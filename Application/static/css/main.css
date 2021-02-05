@@ -24,14 +24,14 @@ li {
     padding: 5px;
 }
 
-#bootstrap-overrides a {
+a {
     text-decoration: none;
     color: blue;
 }
 
 a:hover { color : red;}
 
-#bootstrap-overrides hr {
+hr {
     width: 100%;
     height:4px;
     margin-left: auto;
