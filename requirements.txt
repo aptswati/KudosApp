@@ -15,7 +15,7 @@ Flask-Principal==0.4.0
 Flask-Security==3.0.0
 Flask-WTF==0.14.3
 idna==3.1
-importlib-metadata==3.4.0
+importlib-metadata==2.1.1
 itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
