@@ -6,5 +6,5 @@ class Config(object):
 
 
 MONGODB_SETTINGS = {'db': 'Kudos_db',
-'host':'mongodb://datastore:27017/Kudos_db'
+'host':'mongodb://localhost:27017/Kudos_db'
                     }
