@@ -1,4 +1,5 @@
 import os
+from flask_pymongo import pymongo
 from pymongo import MongoClient
 
 class Config(object):
