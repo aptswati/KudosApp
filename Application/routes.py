@@ -22,8 +22,8 @@ def index():
     return render_template("index.html", index=True)
 
 
-@app.route("/Includes/Favorites")
-@app.route("/Includes/Favorites/<term>")
+@app.route("/Favorites")
+@app.route("/Favorites/<term>")
 def Favorites(term = None):
     if term is None:
         term = "Spring 2019"
