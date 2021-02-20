@@ -1,7 +1,4 @@
-datastore:
-  image: mongo:4.4.3
-  ports:
-    - "27017:27017"
+
 frontend:
   build: .
   command: python -u app.py
